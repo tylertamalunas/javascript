@@ -1,0 +1,23 @@
+function cube(x) {
+    var ans = x*x*x;
+    return ans;
+}
+function tripleadd(x){
+    var ans = x+x+x;
+    return ans;
+}
+function addstrings(a,b,c,d,e){
+    var ans = a + b + c + d + e;
+    return ans;
+}
+function printHeight(x){
+    var ans = x.getHeight();
+    var ans2 = x.getWidth();
+    print(ans);
+    print(ans2);
+}
+var img = new SimpleImage("chapel.png");
+print(cube(2));
+print(tripleadd(1));
+print(addstrings("Well ","hello ","there ", "General ","Kenobi!"));
+printHeight(img);
